@@ -19,7 +19,6 @@
     font-size: 28px;
 }
 
-/* MENU */
 .menu {
     display: flex;
     gap: 20px;
@@ -53,6 +52,8 @@
     margin: 30px auto;
     padding: 0 10px;
     max-width: 1200px;
+
+
 }
 
 .card {
@@ -64,6 +65,9 @@
     padding: 15px;
     text-align: center;
     color: white;
+
+  
+    
 }
 
 .card img {
@@ -80,6 +84,21 @@
     padding: 15px;
     border: 2px solid black;
     margin-top: 20px;
+}
+h1{
+    color: white;
+}
+
+.img1{
+    display: flex; 
+    justify-content:center;
+    align-items: center;
+    height: 7%;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+
 }
 
 @media (max-width: 768px) {
